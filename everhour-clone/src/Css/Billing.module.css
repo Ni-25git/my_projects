@@ -1,0 +1,40 @@
+.OptionalSS {
+    height: 800px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 100px;
+}
+
+.OptionalSS1 {
+    height: 600px;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 14rem;
+    box-shadow: 5px 5px 5px 5px grey;
+    background-image: url('https://blog-cdn.everhour.com/assets/images/new-design/screens/new-tour/projects-board-view-v3.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .OptionalSS1 {
+        width: 80%; /* Adjust the width for screens with a max-width of 1200px */
+        margin-left: 10rem; /* Adjust the margin for screens with a max-width of 1200px */
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .OptionalSS1 {
+        width: 90%; /* Adjust the width for screens with a max-width of 992px */
+        margin-left: 5rem; /* Adjust the margin for screens with a max-width of 992px */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .OptionalSS,
+    .OptionalSS1 {
+        width: 100%; /* Make both elements full width for screens with a max-width of 768px */
+        margin-left: 0; /* Remove left margin for screens with a max-width of 768px */
+    }
+}

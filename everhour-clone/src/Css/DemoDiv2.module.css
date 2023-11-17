@@ -1,0 +1,32 @@
+.DemoDiv2 {
+    height: 500px;
+    width: 80%;
+    margin-left: 9rem;
+    margin-top: 50px;
+    background-color: #e9ffdb;
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.vm9gbBsYo5QSHStTfQZK4AHaHN&pid=Api&P=0&h=180'); 
+    background-size: cover; 
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 150px;
+  }
+.DemoDiv21{
+    height: 100%;
+    width: 50%;
+    box-shadow: 5px 5px #ffffe0;
+    margin-left: 18rem;
+    background-color: #fdf5e6;
+    text-align: center;
+}
+.DemoDiv22{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.para4{
+    color: grey;
+}
+.DemoDiv23{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 70px;
+}

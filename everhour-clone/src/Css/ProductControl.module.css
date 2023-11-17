@@ -1,0 +1,25 @@
+.divv3{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+.divleft3{
+    height: 100%;
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.divleft3 h1{
+    font-size: 40px;
+}
+.divleft3 p{
+    color: grey;
+    font-size: 20px;
+}
+.divright3{
+    height: 100%;
+    width: 40%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}

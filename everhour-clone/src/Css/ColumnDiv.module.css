@@ -1,0 +1,82 @@
+
+.ColumnDiv {
+    height: 950px;
+    width: 90%;
+    border: 1px solid grey;
+    margin: 0 auto; 
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 1px 5px 5px 5px grey;
+    background-color: #f5f5f5;
+  }
+  
+
+  .ColumnDiv1,
+  .ColumnDiv2,
+  .ColumnDiv3 {
+    border: 1px solid grey;
+    height: 100%;
+    width: 100%; 
+  }
+  
+  .ColumnDiv1 h2,
+  .ColumnDiv2 h2,
+  .ColumnDiv3 h2 {
+    font-size: 30px;
+  }
+  
+  .ColumnDiv1 p,
+  .ColumnDiv2 p,
+  .ColumnDiv3 p {
+    font-size: 16px;
+    color: grey;
+  }
+  
+  .BTN {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 20px;
+    padding-right: 80px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  .num {
+    color: green;
+    font-size: 50px;
+    margin-top: 40px;
+  }
+  
+  .CD {
+    margin-left: 20px;
+  }
+  
+  .ul2 {
+    margin-top: 30px;
+    list-style-type: none;
+  }
+  
+  .li2 {
+    margin-top: 10px;
+  }
+  
+  .li2::before {
+    content: '\2713';
+    color: green;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .ColumnDiv {
+      flex-direction: column;
+    }
+  
+    .BTN {
+      padding-right: 20px;
+    }
+  
+  }
+  

@@ -1,0 +1,52 @@
+
+.Home {
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 35%;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .img {
+    margin-right: 10px;
+  }
+  
+  .review {
+    font-size: 24px;
+    color: grey;
+    margin-top: 40px;
+  }
+  
+  .main,
+  .left,
+  .para {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .centre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    gap: 20px;
+  }
+  
+  .img2 {
+    height: 50px;
+    width: 100px;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .Home {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+    }
+  
+    .img {
+      margin-right: 0;
+    }
+  }
+  

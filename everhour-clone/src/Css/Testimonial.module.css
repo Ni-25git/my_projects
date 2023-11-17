@@ -1,0 +1,89 @@
+.testimonial{
+    height: 1000px;
+    width: 90%;
+    margin-left: 80px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    background-color: #E8F6F3 ;
+    margin-top: 100px;
+
+}
+.testimonial p{
+    color: grey;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+    gap: 10px;
+}
+.test1{
+height: 300px;
+width: 300px;
+border: 1px solid green;
+text-align: center;
+margin-left: 50px;
+background-color: white;
+}
+.test2{
+    height: 400px;
+    width: 400px;
+    border: 1px solid green;
+    margin-right: 100px;
+    text-align: center;
+    background-color: white;
+}
+.test3{
+    height: 300px;
+    width: 300px;
+    border: 1px solid green;
+    text-align: center;
+    background-color: white;
+}
+.test4{
+    height: 300px;
+width: 300px;
+border: 1px solid green;
+margin-top: 30px;
+text-align: center;
+margin-left: 50px;
+background-color: white;
+}
+.test5{
+    height: 500px;
+    width: 400px;
+    border: 1px solid green;
+    margin-top: 30px;
+    text-align: center;
+    background-color: white;
+}
+.test6{
+    height: 300px;
+    width: 300px;
+    border: 1px solid green ;
+    margin-top: 30px;
+    text-align: center;
+    background-color: white;
+}
+.test7{
+    height: 300px;
+    width: 300px;
+    border: 1px solid green;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 50px;
+    background-color: white;
+}
+.test8{
+    height: 300px;
+    width: 300px;
+    border: 1px solid green;
+    margin-top: 30px;
+    text-align: center;
+    background-color: white;
+}
+.span1{
+    background-color: 	#FFFDD0;
+}
+.span2{
+    color: black;
+}
+

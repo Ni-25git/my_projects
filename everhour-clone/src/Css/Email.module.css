@@ -1,0 +1,31 @@
+.right{
+    margin-top: 30px;
+    gap: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.input{
+    height: 40px;
+    width: 300px;
+    background-color: #F9F6EE;
+    margin-right: 20px;
+}
+.try{
+    height: 50px;
+    width: 130px;
+    background-color: #50C878;
+    color: white;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+}
+.icon{
+    margin-top: 10px;
+}
+.span{
+    margin-left: 20px;
+    color: grey;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.img1{
+    margin-top: 20px;
+}

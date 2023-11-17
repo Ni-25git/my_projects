@@ -1,0 +1,45 @@
+.DemoSession{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    height: 400px;
+    width: 75%;
+    margin-left: 11rem;
+    margin-top: 50px;
+}
+.DemoSession1{
+    display: flex;
+    text-align: center;
+    margin-left: 15rem;
+}
+.DemoSession1 img{
+    height: 100px;
+    width: 100px;
+}
+.DemoSession2 p{
+    color: grey;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.DemoSession2{
+    text-align: center;
+}
+.DemoSession3{
+    text-align: center;
+    margin-top: 50px;
+}
+.DemoSessionbtn1{
+    margin-right: 40px;
+    background-color:  #50C878;
+    color: white;
+    padding: 5px;
+    border: none;
+    height: 50px;
+    width: 150px;
+}
+.DemoSessionbtn2{
+    padding: 5px;
+    height: 50px;
+    width: 150px;
+    color: #50C878;
+    background-color: white;
+}

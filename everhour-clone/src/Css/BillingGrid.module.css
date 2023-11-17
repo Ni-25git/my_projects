@@ -1,0 +1,18 @@
+.TimeGrid{
+    height: 900px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,auto);
+    margin-left: 10%;
+    margin-top: 50px;
+    gap: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.TimeGrid1{
+    text-align: center;
+    height: 200px;
+    border-bottom: 2px solid green;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: #fffafa;
+}

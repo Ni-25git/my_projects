@@ -1,0 +1,35 @@
+#contact{
+    height: calc(100vh- 5rem);
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+.contact{
+    height: 70vh;
+    box-shadow: 0px 3px 0px 0px grey;
+}
+.Contact1{
+    text-align: center;
+    height: 80vh;
+    width: 60vw;
+    margin-left: 19rem;
+}
+.Contactspan{
+    color: red;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+.contact2{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.contact2:hover{
+    color: red;
+}
+.icon {
+    margin-right: 8px;
+  }

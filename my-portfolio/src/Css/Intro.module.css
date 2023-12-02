@@ -1,0 +1,67 @@
+#intro {
+    height: calc(100vh - 5rem);
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg {
+    position: absolute;
+    top: 5rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 90vh;
+    margin-right: 15rem;
+}
+
+.introContent {
+    height: 95vh;
+    width: 50%;
+    padding: 2rem; 
+    font-size: 2rem; 
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20rem; 
+}
+
+.hello {
+    font-size: 1.5rem; 
+    font-weight: 100;
+}
+
+.introName {
+    color: red;
+}
+
+.introPara {
+    font-size: 1rem; 
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .bg {
+        margin-top: 5rem;
+        margin-right: 5rem;
+    }
+
+    .introContent {
+        padding: 1rem;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+
+    .hello {
+        font-size: 1rem;
+    }
+
+    .introPara {
+        font-size: 0.9rem;
+    }
+}

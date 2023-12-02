@@ -1,0 +1,42 @@
+.navbar{
+    height: 5rem;
+    width: 60vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FEFEFA;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+.logo{
+    object-fit: cover;
+    height: 3rem;
+    width: 4rem;
+}
+.navlink1{
+    margin: 2rem;
+    cursor: pointer;
+}
+.navlink1:hover{
+    color: red;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid red;
+}
+.resumebtn{
+    width: 80px;
+    height: 50px;
+    font-family: 'Heebo', sans-serif;
+    border-radius: 30px;
+    font-size: 1rem;
+    background-color: antiquewhite;
+}
+.resumebtn:hover{
+    color: black;
+    background-color: red;
+}
